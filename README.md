@@ -2,7 +2,12 @@
 
 ```python
 print("Usage: python imageResizer.py input_image_path output_width output_height")
+# or
+print("Usage: python imageResizerTransparent.py input_image_path output_width output_height")
 ```
+
+The transparent one is going to make transparent background, while the original one is makeing white.
+
 Effect:
 
 `python3 imageResizer.py /Users/me/Pictures/TH15Clownpiece1.jpg 672 1024`
